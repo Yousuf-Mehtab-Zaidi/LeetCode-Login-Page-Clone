@@ -1,0 +1,270 @@
+*{
+    background-color: #0f0f0f;
+    color: #a8a8a8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{
+    text-decoration: none;
+}
+/* nav bar */
+nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
+    background-color: #282828;
+    height: 50px;
+}
+/* nav bar links */
+#navlinks{
+    display: flex;
+    background-color: #282828;
+    height: 50px;
+    width: 1200px;
+    margin: 0px 160px;
+    padding: 0px 24px;
+}
+/* leetcode logo */
+#logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50px;
+}
+/* problems link */
+#problem, #contest, #discuss, #interview, #store, #school, #premium{
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* searchbar */
+#searchbar{
+    color: #282828;
+    background-color: #282828;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* searcharea */
+#searcharea{
+    height: 30px;
+    width: 80px;
+    background-color: #414141;
+    border: none;
+}
+/* left bar */
+#leftbar{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 25px;
+    background-color: #414141;
+    border: none;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+/* rightbar */
+#rightbar{
+    height: 30px;
+    width: 25px;
+    background-color: #414141;
+    border: none;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+/* blank area */
+#blank{
+    width: 400px;
+    color: #282828;
+    background-color: #282828;
+}
+/* premium button */
+#premiumbutton{
+    margin-left: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 30px;
+    background-color: #3b2a00;
+}
+/* center login area */
+#loginarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 605px;
+    width: 1152px;
+    padding: 24px;
+    margin: 0px 160.400px 0px 160.400px;
+}
+#centerpanel{
+    background-color: #282828;
+    height: 500px;
+    width: 335px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 2px solid rgb(67, 65, 65);
+}
+#topimage{
+    background-color: #282828;
+    height: 80px;
+}
+#leetcodelogotext{
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gap{
+    background-color: #282828;
+    height: 18px;
+}
+.input{
+    background-color: #282828;
+    height: 36px;
+}
+.login{
+    font-weight: 500;
+    border: 1px solid rgb(212, 206, 206);
+    background-color: #282828; 
+    height: 30px; 
+    width: 310px; 
+    border: 0.35px solid rgb(67, 65, 65);
+    border-radius: 10px;
+    padding: 4px 12px;
+}
+
+.cloudflarecontent{
+    height: 65px;
+    border: 1px solid rgb(161, 161, 161);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #282828;
+}
+.successcontents{    
+    background-color: #282828;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+}
+#successicon{
+    background-color: #282828;
+}
+#gaparound{
+    height: 50px;
+    width: 150px;
+    background-color: #282828
+    ;
+}
+.cloudflareiconlinks{
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.links{
+    height: 25px;
+}
+/* submit area */
+.submitarea{
+    background-color: #282828;
+}
+#submitbutton{
+    height: 35px;
+    border: none;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 335px;
+    border-radius: 10px;
+}
+/* terms and conditions */
+.terms{
+    height: 20px;
+    background-color: #282828;
+    font-size: 1.9vh;
+}
+.terms a{
+    background-color: #282828;
+    color: #007bff;
+}
+.terms p{
+    background-color: #282828;
+}
+/* forgot password */
+.forgot{
+    height: 20px;
+    width: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282828;
+}
+.gapbtw{
+    height: 20px;
+    width: 00px;
+}
+.forgotpassword a{
+    color: #ffffff;
+    background-color: #282828;
+}
+.signup a{
+    color: #ffffff;
+    background-color: #282828;
+}
+/* other ways to sign in */
+.otherways{
+    margin: 0px 85px 0px 85px;
+}
+.otherwaysbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #282828;
+}
+.githubicon, .googleicon, .appleicon, .linkedinicon{
+    background-color: #282828; 
+    border-radius: 50%; 
+    height: 20px; 
+    width: 20px;
+}
+.otherwaystext{
+    background-color: #282828;
+}
+/* footer */
+.footerarea{
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 96px 0px 0px 0px;
+    padding: 20px;
+}
+.footerarea p{
+    background-color: #1a1a1a;
+}
+.footerarea a{
+    background-color: #1a1a1a;
+}
+.owner{
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
