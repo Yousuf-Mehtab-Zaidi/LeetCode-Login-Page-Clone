@@ -19,7 +19,6 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     display: flex;
     background-color: #282828;
     height: 50px;
-    width: 100vw;
     margin: 0px 160px;
     padding: 0px 24px;
 }
@@ -98,7 +97,6 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     justify-content: center;
     align-items: center;
     height: 605px;
-    width: 1152px;
     padding: 24px;
     margin: 0px 160.400px 0px 160.400px;
 }
@@ -249,7 +247,6 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 }
 /* footer */
 .footerarea{
-    width = 100vw;
     background-color: #1a1a1a;
     display: flex;
     align-items: center;
