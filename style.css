@@ -261,7 +261,6 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     background-color: #1a1a1a;
 }
 .owner{
-    width: 100vw;
     background-color: #1a1a1a;
     display: flex;
     align-items: center;
