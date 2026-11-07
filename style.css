@@ -2,8 +2,8 @@
     background-color: #0f0f0f;
     color: #a8a8a8;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     
 }
 a{
@@ -12,26 +12,26 @@ a{
 /* nav bar */
 nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     background-color: #282828;
-    height: 50px;
+    height: 3.125rem;
 }
 /* nav bar links */
 #navlinks{
     display: flex;
     background-color: #282828;
-    height: 50px;
-    margin: 0px 160px;
-    padding: 0px 24px;
+    height: 3.125rem;
+    margin: 0rem 10rem;
+    padding: 0rem 1.5rem;
 }
 /* leetcode logo */
 #logo{
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 50px;
+    width: 3.125rem;
 }
 /* problems link */
 #problem, #contest, #discuss, #interview, #store, #school, #premium{
-    width: 85px;
+    width: 5.3125rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,15 +40,15 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 #searchbar{
     color: #282828;
     background-color: #282828;
-    width: 120px;
+    width: 7.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 /* searcharea */
 #searcharea{
-    height: 30px;
-    width: 80px;
+    height: 1.875rem;
+    width: 5rem;
     background-color: #414141;
     border: none;
 }
@@ -58,8 +58,8 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
-    width: 25px;
+    height: 1.875rem;
+    width: 1.5625rem;
     background-color: #414141;
     border: none;
     border-top-left-radius: 50%;
@@ -67,8 +67,8 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 }
 /* rightbar */
 #rightbar{
-    height: 30px;
-    width: 25px;
+    height: 1.875rem;
+    width: 1.5625rem;
     background-color: #414141;
     border: none;
     border-top-right-radius: 50%;
@@ -76,19 +76,19 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 }
 /* blank area */
 #blank{
-    width: 400px;
+    width: 25rem;
     color: #282828;
     background-color: #282828;
 }
 /* premium button */
 #premiumbutton{
-    margin-left: 10px;
-    border-radius: 8px;
+    margin-left: 0.625rem;
+    border-radius: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85px;
-    height: 30px;
+    width: 5.3125rem;
+    height: 1.875rem;
     background-color: #3b2a00;
 }
 /* center login area */
@@ -96,21 +96,21 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 605px;
-    padding: 24px;
-    margin: 0px 160.400px 0px 160.400px;
+    height: 37.8125rem;
+    padding: 1.5rem;
+    margin: 0rem 10.025rem 0rem 10.025rem;
 }
 #centerpanel{
     background-color: #282828;
-    height: 500px;
-    width: 335px;
-    padding: 24px;
-    border-radius: 20px;
+    height: 31.25rem;
+    width: 20.9375rem;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
     border: 2px solid rgb(67, 65, 65);
 }
 #topimage{
     background-color: #282828;
-    height: 80px;
+    height: 5rem;
 }
 #leetcodelogotext{
     background-color: #282828;
@@ -120,36 +120,36 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 }
 .gap{
     background-color: #282828;
-    height: 18px;
+    height: 1.125rem;
 }
 .input{
     background-color: #282828;
-    height: 36px;
+    height: 2.25rem;
 }
 .login{
     font-weight: 500;
     border: 1px solid rgb(212, 206, 206);
     background-color: #282828; 
-    height: 30px; 
-    width: 310px; 
+    height: 1.875rem; 
+    width: 19.375rem; 
     border: 0.35px solid rgb(67, 65, 65);
-    border-radius: 10px;
-    padding: 4px 12px;
+    border-radius: 0.625rem;
+    padding: 0.25rem 0.75rem;
 }
 
 .cloudflarecontent{
-    height: 65px;
+    height: 4.0625rem;
     border: 1px solid rgb(161, 161, 161);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70px;
+    height: 4.375rem;
     background-color: #282828;
 }
 .successcontents{    
     background-color: #282828;
-    height: 50px;
-    width: 100px;
+    height: 3.125rem;
+    width: 6.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,8 +164,8 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     background-color: #282828;
 }
 #gaparound{
-    height: 50px;
-    width: 150px;
+    height: 3.125rem;
+    width: 9.375rem;
     background-color: #282828
     ;
 }
@@ -177,24 +177,24 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     
 }
 .links{
-    height: 25px;
+    height: 1.5625rem;
 }
 /* submit area */
 .submitarea{
     background-color: #282828;
 }
 #submitbutton{
-    height: 35px;
+    height: 2.1875rem;
     border: none;
     color: #000000;
     background-color: rgb(255, 255, 255);
-    height: 40px;
-    width: 335px;
-    border-radius: 10px;
+    height: 2.5rem;
+    width: 20.9375rem;
+    border-radius: 0.625rem;
 }
 /* terms and conditions */
 .terms{
-    height: 20px;
+    height: 1.25rem;
     background-color: #282828;
     font-size: 1.9vh;
 }
@@ -207,16 +207,16 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 }
 /* forgot password */
 .forgot{
-    height: 20px;
-    width: 335px;
+    height: 1.25rem;
+    width: 20.9375rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #282828;
 }
 .gapbtw{
-    height: 20px;
-    width: 00px;
+    height: 1.25rem;
+    width: 0rem;
 }
 .forgotpassword a{
     color: #ffffff;
@@ -228,7 +228,7 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 }
 /* other ways to sign in */
 .otherways{
-    margin: 0px 85px 0px 85px;
+    margin: 0rem 5.3125rem 0rem 5.3125rem;
 }
 .otherwaysbutton{
     display: flex;
@@ -239,8 +239,8 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
 .githubicon, .googleicon, .appleicon, .linkedinicon{
     background-color: #282828; 
     border-radius: 50%; 
-    height: 20px; 
-    width: 20px;
+    height: 1.25rem; 
+    width: 1.25rem;
 }
 .otherwaystext{
     background-color: #282828;
@@ -251,8 +251,8 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 96px 0px 0px 0px;
-    padding: 20px;
+    margin: 6rem 0rem 0rem 0rem;
+    padding: 1.25rem;
 }
 .footerarea p{
     background-color: #1a1a1a;
@@ -265,4 +265,225 @@ nav, #logo, #problem, #contest, #discuss, #interview, #store, #school, #premium{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* ---------- Large monitors (1537px+) ---------- */
+@media (min-width: 96.0625em) {
+    #blank {
+        flex: 1;
+        width: auto;
+    }
+}
+
+/* ---------- Ultra-wide monitors (2000px+) ---------- */
+@media (min-width: 125em) {
+    #navlinks {
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+}
+
+/* ---------- Laptops, small laptop, Nest Hub Max (up to 1536px) ---------- */
+@media (max-width: 96em) {
+    #navlinks {
+        margin: 0 2.5rem;
+    }
+    #blank {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+    }
+    #loginarea {
+        margin: 0 2.5rem;
+    }
+}
+
+/* ---------- iPad Pro 13, small laptops (up to 1024px) ---------- */
+@media (max-width: 64em) {
+    #navlinks {
+        margin: 0 1.25rem;
+    }
+    #loginarea {
+        margin: 0 1.25rem;
+        height: auto;
+        padding: 2.5rem 1.5rem;
+    }
+    #centerpanel {
+        height: auto;
+    }
+    .terms {
+        height: auto;
+        font-size: 0.8125rem;
+    }
+}
+
+/* ---------- Surface Pro 10, iPad Mini, unfolded foldables (up to 900px) ---------- */
+@media (max-width: 56.25em) {
+    #navlinks {
+        margin: 0;
+        padding: 0 0.75rem;
+    }
+    #problem, #contest, #discuss, #interview, #store, #school {
+        width: auto;
+        padding: 0 0.625rem;
+        font-size: 0.9375rem;
+    }
+    #loginarea {
+        margin: 0;
+    }
+    .footerarea {
+        margin-top: 3rem;
+        padding: 1rem;
+        font-size: 0.875rem;
+        text-align: center;
+        line-height: 1.8;
+    }
+}
+
+/* ---------- Phones: Pixel 9/9 Pro/10, iPhone 16, Galaxy A55 (up to 600px) ---------- */
+@media (max-width: 37.5em) {
+    /* navbar: keep every item, scroll sideways if it does not fit */
+    #navlinks {
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        padding: 0 0.5rem;
+    }
+    #navlinks::-webkit-scrollbar {
+        display: none;
+    }
+    #navlinks > div {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+    #logo {
+        width: 2.5rem;
+    }
+    #problem, #contest, #discuss, #interview, #store, #school {
+        padding: 0 0.5rem;
+        font-size: 0.8125rem;
+    }
+    #blank {
+        flex: 0 0 0.5rem;
+        width: 0.5rem;
+    }
+    #searchbar {
+        width: 6.5rem;
+    }
+    #searcharea {
+        width: 3.5rem;
+    }
+    #premium {
+        width: auto;
+    }
+    #premiumbutton {
+        width: 4.5rem;
+        margin-left: 0.25rem;
+        font-size: 0.8125rem;
+    }
+
+    /* login card */
+    #loginarea {
+        padding: 1.5rem 0.75rem;
+    }
+    #centerpanel {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 24rem;
+        height: auto;
+    }
+    .login {
+        box-sizing: border-box;
+        width: 100%;
+        height: 2.25rem;
+    }
+    #submitbutton {
+        width: 100%;
+    }
+    .forgot {
+        width: 100%;
+    }
+    #gaparound {
+        flex: 1;
+        width: auto;
+    }
+    .otherways {
+        margin: 0;
+        text-align: center;
+    }
+    .footerarea {
+        margin-top: 2rem;
+        font-size: 0.75rem;
+    }
+}
+
+/* ---------- iPhone 16 Pro Max, iPhone SE, Galaxy A55 (up to 480px) ---------- */
+@media (max-width: 30em) {
+    #problem, #contest, #discuss, #interview, #store, #school {
+        padding: 0 0.4375rem;
+        font-size: 0.75rem;
+    }
+    .terms {
+        font-size: 0.75rem;
+    }
+}
+
+/* ---------- Small phones, iPhone SE (up to 360px) ---------- */
+@media (max-width: 22.5em) {
+    #centerpanel {
+        padding: 1rem;
+    }
+    .forgot {
+        font-size: 0.875rem;
+    }
+}
+
+/* ---------- Folded foldables: Galaxy Z Fold 6, Pixel 9 Pro Fold (up to 340px) ---------- */
+@media (max-width: 21.25em) {
+    #navlinks {
+        padding: 0 0.375rem;
+    }
+    #logo {
+        width: 2.25rem;
+    }
+    #problem, #contest, #discuss, #interview, #store, #school {
+        padding: 0 0.375rem;
+        font-size: 0.6875rem;
+    }
+    #premiumbutton {
+        width: 4rem;
+        font-size: 0.6875rem;
+    }
+}
+
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100vh;
+    min-height: 100dvh; /* fixes mobile browsers where the address bar changes the height */
+    display: flex;
+    flex-direction: column;
+}
+header {
+    flex: 0 0 auto;
+}
+main {
+    flex: 1 0 auto; /* main stretches and pushes the footer down */
+}
+footer {
+    flex: 0 0 auto;
+    margin-top: auto;
+}
+
+.terms {
+    height: auto;
+    font-size: 0.8125rem;   
+    line-height: 1.4;
+    white-space: normal;
+}
+#centerpanel {
+    height: auto;           /* card grows if the text wraps */
+    min-height: 31.25rem;   /* keeps your original card size */
 }
